@@ -1,8 +1,8 @@
-from utils import DriverUtil
-from page.C_seek_play import seek_play_proxy
+from NetEase_cloud_music_plus.utils import DriverUtil
+from NetEase_cloud_music_plus.page.C_seek_play import seek_play_proxy
 import unittest
 import time
-import utils
+import NetEase_cloud_music_plus.utils
 
 
 class Test_seek_play(unittest.TestCase):

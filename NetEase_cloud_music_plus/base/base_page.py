@@ -1,8 +1,9 @@
-from utils import DriverUtil
+from NetEase_cloud_music_plus.utils import DriverUtil
 import logging
 import time
 import os
-from config import BASE_DIR
+from selenium import webdriver
+from NetEase_cloud_music_plus.config import BASE_DIR
 class BasePage:
     """
     对象库层-基类
@@ -30,10 +31,11 @@ class BaseHandle:
         element.clear()
         element.send_keys(text)
 
-
     def click_object(self,element):
         "定位元素并点击"
+        print(element)
         element.click()
+
 
 class BaseProxy:
     """

@@ -1,6 +1,6 @@
 import unittest
-from base.base_page import BasePage, BaseHandle,BaseProxy
-from utils import DriverUtil
+from NetEase_cloud_music_plus.base.base_page import BasePage, BaseHandle,BaseProxy
+from NetEase_cloud_music_plus.utils import DriverUtil
 from selenium.webdriver.common.by import By
 import time
 

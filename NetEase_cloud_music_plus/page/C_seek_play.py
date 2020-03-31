@@ -1,5 +1,5 @@
-from base.base_page import BaseHandle,BaseProxy,BASE_DIR,BasePage
-from utils import  DriverUtil
+from NetEase_cloud_music_plus.base.base_page import BaseHandle,BaseProxy,BASE_DIR,BasePage
+from NetEase_cloud_music_plus.utils import  DriverUtil
 from selenium.webdriver.common.by import By
 import time
 from selenium.webdriver.common.action_chains import ActionChains

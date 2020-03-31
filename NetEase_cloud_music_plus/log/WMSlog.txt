@@ -1,2 +1,6 @@
-2020-03-18 15:56:07,296 INFO [test_A_login.py(test_A_usmpwd_login:27)] - 登录
-2020-03-18 15:56:13,297 INFO [base_page.py(find_element:15)] - location=('xpath', "//a[@class='u-btn2 u-btn2-dis']")
+2020-03-31 15:51:25,501 INFO [test_A_login.py(test_A_usmpwd_login:27)] - 登录
+2020-03-31 15:51:31,505 INFO [base_page.py(find_element:15)] - location=('xpath', '//li[2]//span[1]//a[1]//em[1]')
+2020-03-31 15:53:26,436 INFO [test_A_login.py(test_A_usmpwd_login:27)] - 登录
+2020-03-31 15:53:32,438 INFO [base_page.py(find_element:15)] - location=('xpath', '//li[2]//span[1]//a[1]//em[1]')
+2020-03-31 15:59:13,040 INFO [test_A_login.py(test_A_usmpwd_login:27)] - 登录
+2020-03-31 15:59:19,041 INFO [base_page.py(find_element:15)] - location=('xpath', '//li[2]//span[1]//a[1]//em[1]')

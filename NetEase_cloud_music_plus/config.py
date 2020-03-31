@@ -1,3 +1,4 @@
+import time
 import logging.handlers
 import os
 
@@ -27,3 +28,6 @@ def init_log_config():
                                                    backupCount=3, encoding="UTF-8")
     fh.setFormatter(formatter)
     logger.addHandler(fh)
+
+
+print(time.time())

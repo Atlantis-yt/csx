@@ -2,11 +2,11 @@ import unittest
 
 from selenium.webdriver.common.by import By
 
-import utils
+import NetEase_cloud_music_plus.utils
 import time
-from page.A_login import LoginProxy
-from utils import DriverUtil
-from config import init_log_config
+from NetEase_cloud_music_plus.page.A_login import LoginProxy
+from NetEase_cloud_music_plus.utils import DriverUtil
+from NetEase_cloud_music_plus.config import init_log_config
 import logging
 
 class TestLogin(unittest.TestCase):

@@ -1,8 +1,8 @@
 import unittest
-import utils
+import NetEase_cloud_music_plus.utils
 import time
-from page.B_user_settings import user_settings_proxy
-from utils import DriverUtil
+from NetEase_cloud_music_plus.page.B_user_settings import user_settings_proxy
+from NetEase_cloud_music_plus.utils import DriverUtil
 import logging
 
 
