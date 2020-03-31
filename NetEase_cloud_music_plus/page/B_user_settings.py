@@ -37,6 +37,7 @@ class user_settings_handle(BaseHandle):
     def click_Click_on_the_picture(self):
         self.click_object(self.user_setting_Page.find_Click_on_the_picture())
 
+
     def click_my_music(self):
         self.click_object(self.user_setting_Page.find_my_nusic())
 
