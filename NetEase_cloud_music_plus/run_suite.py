@@ -21,8 +21,7 @@ try:
         runner = HTMLTestRunner(f, title="WMS自动化测试报告", description="Win10.Chrome_郑文强")
         runner.run(suite)
 except Exception as e:
-    logging.exception(e)
-
+    logging.info(e)
 finally:
     DriverUtil.set_auto_quit(True)
     DriverUtil.QuitDriver()
