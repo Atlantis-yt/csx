@@ -3,6 +3,7 @@ from NetEase_cloud_music_plus.utils import DriverUtil
 from NetEase_cloud_music_plus.base.base_page import BasePage, BaseHandle,BaseProxy
 from selenium.webdriver.common.by import By
 import time
+import logging.handlers
 
 class user_settings_page(BasePage):
     def __init__(self):
@@ -48,7 +49,9 @@ class user_settings_proxy(BaseProxy):
         self.user_settings_Handle=user_settings_handle()
 
 
+
     def set_music(self):
         self.user_settings_Handle.click_sign_in()
         self.user_settings_Handle.click_Click_on_the_picture()
         # self.user_settings_Handle.click_my_music()
+        logging.error()

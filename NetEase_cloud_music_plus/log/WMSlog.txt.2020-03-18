@@ -1,0 +1,2 @@
+2020-03-18 15:56:07,296 INFO [test_A_login.py(test_A_usmpwd_login:27)] - 登录
+2020-03-18 15:56:13,297 INFO [base_page.py(find_element:15)] - location=('xpath', "//a[@class='u-btn2 u-btn2-dis']")
