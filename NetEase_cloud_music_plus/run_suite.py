@@ -12,7 +12,7 @@ from NetEase_cloud_music_plus.config import init_log_config
 try:
     DriverUtil.set_auto_quit(False)
     suite = unittest.TestSuite()
-    # suite.addTest(unittest.makeSuite(TestLogin))
+    suite.addTest(unittest.makeSuite(TestLogin))
     suite.addTest(unittest.makeSuite(Test_user_settings))
 
 

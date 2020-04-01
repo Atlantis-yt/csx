@@ -51,7 +51,6 @@ class user_settings_proxy(BaseProxy):
 
 
     def set_music(self):
-        self.user_settings_Handle.click_sign_in()
-        self.user_settings_Handle.click_Click_on_the_picture()
-        # self.user_settings_Handle.click_my_music()
-        logging.error()
+        # self.user_settings_Handle.click_sign_in()
+        # self.user_settings_Handle.click_Click_on_the_picture()
+        self.user_settings_Handle.click_my_music()

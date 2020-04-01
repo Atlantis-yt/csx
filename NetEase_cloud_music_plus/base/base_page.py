@@ -31,7 +31,8 @@ class BaseHandle:
         element.clear()
         element.send_keys(text)
 
-    def click_object(self,element):
+
+    def click_object(self, element):
         "定位元素并点击"
         print(element)
         element.click()
@@ -65,7 +66,6 @@ class BaseProxy:
         handle = driver.window_handles
         print(handle)
         driver.switch_to_window(handle[1])
-
 
 
     def Windows_switch_return(self):
